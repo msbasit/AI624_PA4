@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/D-X-Y/NATS-Bench",
+  "file": "NATS-tss-v1_0-3ffb9.pickle.pbz2",
+  "sha256": "f3967b84eb6c88200ea403b7eedfa7854f414384253c3b34670513460ab477b5",
+  "metric": "cifar10-valid / valid-accuracy",
+  "hp": "200",
+  "benchmark_seed_reduction": "mean (is_random=False)",
+  "entries": 15625
+}

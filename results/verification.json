@@ -1,0 +1,10 @@
+{
+  "T3_split_sizes_disjoint": true,
+  "T4_split_sizes_disjoint": true,
+  "T1_equal_deployment_parameters_and_hint_budgets": true,
+  "T2_teacher_filter_and_held_out_counts": true,
+  "T3_search_separation_and_budgets": true,
+  "T4_path_sampling_independence_and_budgets": true,
+  "T5_equal_budgets_and_population_checks": true,
+  "all_notebooks_have_visible_outputs_and_no_errors": true
+}

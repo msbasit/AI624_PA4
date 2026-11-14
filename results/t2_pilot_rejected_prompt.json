@@ -1,0 +1,258 @@
+[
+  {
+    "gsm8k_index": 5115,
+    "question": "Janet makes $20 per hour at work. She works 52 hours per week. Anything over 40 hours per week is considered overtime and is paid at 1.5 times the normal rate. She wants to purchase a $4640 car. How many weeks does she need to work to purchase the car?",
+    "completion": "Step 1: Calculate Janet's regular pay for the first 40 hours.\nRegular pay = Hourly wage \u00d7 Regular hours\nRegular pay = $20/hour \u00d7 40 hours\nRegular pay = $800\n\nStep 2: Calculate her overtime pay for the additional hours worked.\nOvertime pay = (Hourly wage \u00d7 Overtime hours) \u00d7 Overtime factor\nOvertime pay = ($20/hour \u00d7 1.5) \u00d7 (52 - 40)\nOvertime pay = ($30/hour) \u00d7 12\nOvertime pay = $360\n\nStep 3: Calculate her total weekly earnings.\nTotal weekly earnings = Regular pay + Overtime pay\nTotal weekly earnings = $800 + $360\nTotal weekly earnings = $1160\n\nStep 4: Calculate how many weeks Janet needs to work to earn $464",
+    "prediction": null,
+    "reference": "4",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 5293,
+    "question": "Katie is making bread that needs 3 pounds of flour. Sheila is making another kind of bread that needs 2 more pounds of flour. How many pounds of flour do they need together?",
+    "completion": "Step 1: Determine how much flour Katie needs.\n- Katie needs 3 pounds of flour.\n\nStep 2: Calculate how much flour Sheila needs.\n- Sheila's bread requires 2 more pounds than Katie's, so she needs \\(3 + 2 = 5\\) pounds of flour.\n\nStep 3: Add the amounts of flour needed by both Katie and Sheila to find the total.\n- Total flour needed = Katie's flour + Sheila's flour\n- Total flour needed = \\(3 + 5 = 8\\) pounds\n\n#### The total amount of flour they need together is 8 pounds.",
+    "prediction": null,
+    "reference": "8",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 3287,
+    "question": "Jason is hiring two construction workers, one electrician and one plumber. If the construction workers each make $100/day, the electrician makes double what a worker is paid and the plumber makes 250% of a worker's salary, how much are the overall labor costs for one day?",
+    "completion": "Step 1: Calculate the daily wage of the electrician.\nThe electrician makes double what a worker is paid.\nWorker's daily wage = $100/day\nElectrician's daily wage = 2 * $100/day = $200/day\n\nStep 2: Calculate the daily wage of the plumber.\nThe plumber makes 250% of a worker's salary.\nPlumber's daily wage = 2.5 * $100/day = $250/day\n\nStep 3: Calculate the total daily cost for all three employees.\nTotal daily cost = Construction workers' daily wage + Electrician's daily wage + Plumber's daily wage\nTotal daily cost = ($100/day * 2) + $200/day + $250/day\nTotal daily cost = $200/day + $200/day + $250/day\nTotal daily cost",
+    "prediction": null,
+    "reference": "6.5E+2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 4556,
+    "question": "The school is having a book-a-thon. The winning class gets a pizza party. The fifth grade has 20 students and one week to read as much as possible. The 6th grade already finished and read a total of 299 hours. How many hours does each student in 5th grade need to average per day to beat them by 1?",
+    "completion": "Step 1: Determine the number of days left for the 5th grade.\nThere are 7 days in a week, so:\n\\[ \\text{Days left} = 7 - 1 = 6 \\]\n\nStep 2: Calculate how many hours the 5th grade needs to read to beat the 6th grade's total.\nSince the 6th grade has already read 299 hours, the 5th grade needs to read more than \\(299 + 1 = 300\\) hours.\n\nStep 3: Find out how many hours each 5th grader needs to read on average daily.\nTo find this, divide the required total hours by the number of days left:\n\\[ \\text{Hours per student per day} = \\frac{300}{6} = 50 \\]\n\nTherefore, each student in the 5th grade needs to average **50",
+    "prediction": null,
+    "reference": "3",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 2696,
+    "question": "Candice read 3 times as many books as Amanda in their school's Book Tournament. Kara read half the number of books that Amanda read, and Patricia read 7 times the number of books that Kara read. If Candice read 18 books, how many books did Patricia read?",
+    "completion": "Step 1: Determine the number of books Amanda read.\nSince Candice read 3 times as many books as Amanda, we can set up the equation:\n\\[ \\text{Number of books Amanda read} = \\frac{\\text{Number of books Candice read}}{3} \\]\nGiven that Candice read 18 books, we have:\n\\[ \\text{Number of books Amanda read} = \\frac{18}{3} = 6 \\]\n\nStep 2: Calculate the number of books Kara read.\nKara read half the number of books that Amanda read, so:\n\\[ \\text{Number of books Kara read} = \\frac{\\text{Number of books Amanda read}}{2} \\]\nSubstituting the value from Step 1:\n\\[ \\text{Number of books Kara read} = \\frac{6}{2} = 3 \\]\n\nStep 3: Find out how many books",
+    "prediction": null,
+    "reference": "21",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 1908,
+    "question": "Taylor and his friends decide to bring their pets together for a walk. 3 of his friends come first, each having twice as many pets as Taylor has. Another two of his friends have 2 pets each. If Taylor has 4 pets, what's the total number of pets they have together?",
+    "completion": "Step 1: Determine how many pets Taylor's first three friends have.\n- Each of these friends has twice as many pets as Taylor.\n- Taylor has 4 pets.\n\nCalculation:\n\\[ \\text{Pets per friend} = 2 \\times 4 = 8 \\]\n\nSince there are 3 friends:\n\\[ \\text{Total pets from first three friends} = 3 \\times 8 = 24 \\]\n\nStep 2: Determine how many pets the other two friends have.\n- These friends each have 2 pets.\n\nCalculation:\n\\[ \\text{Total pets from last two friends} = 2 \\times 2 = 4 \\]\n\nStep 3: Add up all the pets.\n- Taylor has 4 pets.\n- The first three friends have 24 pets.\n- The last two friends have 4 pets.\n\nCalculation:\n\\[ \\text{Total pets} = 4 + 2",
+    "prediction": null,
+    "reference": "32",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 6168,
+    "question": "There are 50 apples and 40 oranges in the cafeteria. If an apple costs $0.80 and an orange costs $0.50, how much does the cafeteria earn for apples and oranges if there are only 10 apples and 6 oranges left?",
+    "completion": "Step 1: Calculate the total earnings from apples.\n- There were originally 50 apples.\n- After selling 10 apples, there are 40 apples left.\n- Each apple costs $0.80.\n\nTotal earnings from apples = Number of apples sold \u00d7 Price per apple\n= 10 \u00d7 $0.80\n= $8.00\n\nStep 2: Calculate the total earnings from oranges.\n- There were originally 40 oranges.\n- After selling 6 oranges, there are 40 - 6 = 34 oranges left.\n- Each orange costs $0.50.\n\nTotal earnings from oranges = Number of oranges sold \u00d7 Price per orange\n= 6 \u00d7 $0.50\n= $3.00\n\nStep 3: Add the earnings from both fruits to find the total earnings.\nTotal earnings = Earnings from apples + Earnings from oranges\n= $",
+    "prediction": null,
+    "reference": "49",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 835,
+    "question": "Lana and her friends go to a theater on the weekend to watch a new play Joan told them was live. When they arrived, Lana saw 100 cars in the front parking lot. She saw two times more vehicles at the back than there were in the front parking lot. If the total number of cars at the end of the play was 700, how many more cars packed into the parking lot during the play?",
+    "completion": "Step 1: Determine the number of vehicles in the back parking lot.\n- Lana saw twice as many vehicles in the back as in the front.\n- There are 100 vehicles in the front.\n\n\\[\n2 \\times 100 = 200 \\text{ vehicles}\n\\]\n\nStep 2: Calculate the total number of vehicles before the play started.\n- Add the vehicles from both the front and back parking lots.\n\n\\[\n100 + 200 = 300 \\text{ vehicles}\n\\]\n\nStep 3: Find out how many additional vehicles entered the parking lot during the play.\n- The total number of vehicles after the play ended is given as 700.\n\n\\[\n700 - 300 = 400 \\text{ vehicles}\n\\]\n\n### Conclusion:\n#### 400\n\nDuring the play, 400 more cars packed into",
+    "prediction": "4E+2",
+    "reference": "3E+2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 1581,
+    "question": "Jamie owns 4 Persian cats and 2 Maine Coons. Gordon owns half as many Persians and one more Maine Coon than Jamie. Hawkeye owns one less Maine Coon than Gordon and no Persian cats. If they bring all of their cats together to play, how many cats are there in total?",
+    "completion": "Step 1: Calculate the number of cats Gordon owns.\n- Jamie has 4 Persian cats and 2 Maine Coons.\n- Gordon has half as many Persians as Jamie, so he has \\( \\frac{4}{2} = 2 \\) Persian cats.\n- Gordon also has one more Maine Coon than Jamie, so he has \\( 2 + 1 = 3 \\) Maine Coons.\n\nStep 2: Calculate the number of cats Hawkeye owns.\n- Hawkeye has no Persian cats.\n- Hawkeye has one less Maine Coon than Gordon, so he has \\( 3 - 1 = 2 \\) Maine Coons.\n\nStep 3: Sum up all the cats owned by Jamie, Gordon, and Hawkeye.\n- Jamie's cats: 4 Persian + 2 Maine Coons = 6 cats.\n- Gordon's cats: 2 Persian + 3 Maine Co",
+    "prediction": null,
+    "reference": "13",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 2865,
+    "question": "There were 25 peaches in each basket. Five baskets of peaches were delivered to a market. The farmers have eaten 5 peaches. The remaining peaches are packed into smaller boxes of 15 each. How many boxes of peaches are there?",
+    "completion": "Step 1: Calculate the total number of peaches initially.\nEach basket contains 25 peaches, and there are 5 baskets.\nTotal peaches = Number of baskets \u00d7 Peaches per basket\nTotal peaches = 5 \u00d7 25\n\nStep 2: Subtract the peaches eaten by the farmers.\nThe farmers ate 5 peaches.\nRemaining peaches = Total peaches - Eaten peaches\nRemaining peaches = (5 \u00d7 25) - 5\n\nStep 3: Calculate how many boxes can be filled with the remaining peaches.\nEach box holds 15 peaches.\nNumber of boxes = Remaining peaches \u00f7 Peaches per box\nNumber of boxes = [(5 \u00d7 25) - 5] \u00f7 15\n\nStep 4: Find the final answer.\nLet's do the math:\nFirst, calculate the total peaches:\n5 \u00d7 25 =",
+    "prediction": null,
+    "reference": "8",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 4578,
+    "question": "Grace just started her own business. Each week, she charges 300 dollars. Grace's client will pay her every 2 weeks. How many weeks will it take for Grace to get 1800 dollars?",
+    "completion": "To determine how many weeks it will take for Grace to earn $1800, we need to follow these steps:\n\n1. **Calculate weekly earnings**: Grace earns $300 per week.\n2. **Determine payment frequency**: Her client pays her every 2 weeks.\n3. **Calculate total payments needed**: To find out how many weeks it takes to reach $1800, divide the total amount ($1800) by the number of weeks required (which is twice the number of weeks in a month).\n\nLet's perform the calculation:\n\n- Total payments needed = $1800 / $300/week = 6 weeks\n\nSince her client pays every 2 weeks:\n- Number of 2-week periods in 6 weeks = 6 weeks / 2 weeks/payment period = 3 payments\n\nTherefore, it will take Grace 3 months or 3 * 4 weeks = ",
+    "prediction": null,
+    "reference": "6",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 6463,
+    "question": "A toy car factory made 60 cars yesterday. Today, they made twice the number of cars than yesterday. How many toy cars did the factory make?",
+    "completion": "Step 1: Determine the number of cars made today.\n- Yesterday's production was 60 cars.\n- Today's production is twice that amount.\n\n\\[ \\text{Today's production} = 2 \\times \\text{Yesterday's production} \\]\n\n\\[ \\text{Today's production} = 2 \\times 60 \\]\n\n\\[ \\text{Today's production} = 120 \\]\n\nStep 2: Calculate the total production for both days.\n- Add yesterday's and today's productions together.\n\n\\[ \\text{Total production} = \\text{Yesterday's production} + \\text{Today's production} \\]\n\n\\[ \\text{Total production} = 60 + 120 \\]\n\n\\[ \\text{Total production} = 180 \\]\n\n#### The factory made a total of 180 toy cars.",
+    "prediction": null,
+    "reference": "1.8E+2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 7000,
+    "question": "Jen buys and sells candy bars. She buys candy bars for 80 cents each and sells them for a dollar each. If she buys 50 candy bars and sells 48 of them, how much profit does she make in cents?",
+    "completion": "Step 1: Calculate the cost of buying 50 candy bars.\nCost per candy bar = 80 cents\nNumber of candy bars bought = 50\n\nTotal cost = Cost per candy bar \u00d7 Number of candy bars bought\nTotal cost = 80 cents/candy bar \u00d7 50 candy bars\nTotal cost = 4000 cents\n\nStep 2: Calculate the revenue from selling 48 candy bars.\nPrice per candy bar = 1 dollar = 100 cents (since we are working in cents)\nNumber of candy bars sold = 48\n\nRevenue = Price per candy bar \u00d7 Number of candy bars sold\nRevenue = 100 cents/candy bar \u00d7 48 candy bars\nRevenue = 4800 cents\n\nStep 3: Calculate the profit.\nProfit = Revenue - Total cost\nProfit = 4800 cents - 4000 cents",
+    "prediction": null,
+    "reference": "8E+2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 2160,
+    "question": "John's shirt cost 60% more than his pants.  His pants cost $50.  How much was John's outfit?",
+    "completion": "Step 1: Determine the cost of John's shirt.\n- The shirt costs 60% more than the pants, which cost $50.\n\nStep 2: Calculate the additional amount for the shirt.\n- 60% of $50 = (60/100) * $50\n\nStep 3: Add this to the original price of the pants to find the total cost of the shirt.\n- Total cost of the shirt = Cost of pants + Additional amount\n\nStep 4: Find the total cost of the outfit by adding the cost of the pants and the shirt together.\n\n#### Step 1:\n- 60% of $50 = (60/100) * $50 = $30\n\n#### Step 2:\n- Total cost of the shirt = $50 + $30 = $80\n\n#### Step 3:\n- Total cost of the outfit",
+    "prediction": null,
+    "reference": "1.3E+2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 5204,
+    "question": "John spent 3 years of his life exploring the jungle.  He then spent half as much time writing up notes about his travels.  It took .5 years to write his book once he was done with the notes.  How long did he spend on his book and exploring?",
+    "completion": "Step 1: Calculate the time John spent writing up notes.\nHe spent half as much time writing up notes as he did exploring, which is \\( \\frac{3}{2} = 1.5 \\) years.\n\nStep 2: Add the time spent exploring and writing up notes.\nExploring: 3 years\nWriting notes: 1.5 years\n\nTotal time for exploring and writing up notes: \\( 3 + 1.5 = 4.5 \\) years\n\nStep 3: Calculate the total time spent on his book and exploring.\nIt took him 0.5 years to write his book after finishing the notes.\n\nTotal time: \\( 4.5 + 0.5 = 5 \\) years\n\n#### 5",
+    "prediction": "5",
+    "reference": "5",
+    "valid": true
+  },
+  {
+    "gsm8k_index": 4055,
+    "question": "Every year, four clowns and thirty children go on a carousel. This year, the candy seller, at the carousel, had 700 candies. The candy seller then sold 20 candies, to each of the clowns and the children, who attended. How many candies did he have left?",
+    "completion": "Step 1: Calculate the total number of people attending the carousel.\n- There are 4 clowns + 30 children = 34 people.\n\nStep 2: Determine how many candies were sold to the clowns.\n- Each clown received 20 candies.\n- Total for clowns = 4 clowns * 20 candies/clown = 80 candies.\n\nStep 3: Determine how many candies were sold to the children.\n- Each child received 20 candies.\n- Total for children = 30 children * 20 candies/child = 600 candies.\n\nStep 4: Calculate the total number of candies sold.\n- Total candies sold = 80 candies (clowns) + 600 candies (children) = 680 candies.\n\nStep 5: Subtract the total number of candies sold from the initial amount.\n- Initial candies = 700 candies.\n",
+    "prediction": null,
+    "reference": "2E+1",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 6044,
+    "question": "Tom plays 9 rounds of golf.  He takes an average of 4 strokes per hole.  The par value per hole is 3.  How many strokes over par was he?",
+    "completion": "Step 1: Calculate the total number of holes Tom played.\nTotal holes = Number of rounds \u00d7 Holes per round\nTotal holes = 9 \u00d7 18 (assuming a standard golf course has 18 holes)\nTotal holes = 162\n\nStep 2: Calculate the total number of strokes Tom took.\nTotal strokes = Total holes \u00d7 Average strokes per hole\nTotal strokes = 162 \u00d7 4\nTotal strokes = 648\n\nStep 3: Calculate the total par for all holes.\nTotal par = Total holes \u00d7 Par value per hole\nTotal par = 162 \u00d7 3\nTotal par = 486\n\nStep 4: Determine how many strokes over par Tom was.\nStrokes over par = Total strokes - Total par\nStrokes over par = 648 - 486\nStrokes over par = 162\n\n#### 16",
+    "prediction": "16",
+    "reference": "9",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 307,
+    "question": "There are 110 calories in a serving of cheese.  Rick buys the large blocks that have 16 servings per block.  If Rick has already eaten 5 servings of cheese, how many calories are remaining in the block?",
+    "completion": "Step 1: Calculate the total number of calories in one block.\nTotal calories = Calories per serving \u00d7 Number of servings per block\nTotal calories = 110 calories/serving \u00d7 16 servings/block\n\nStep 2: Calculate the total number of calories Rick has consumed so far.\nCalories consumed = Calories per serving \u00d7 Number of servings Rick has eaten\nCalories consumed = 110 calories/serving \u00d7 5 servings\n\nStep 3: Subtract the calories consumed from the total calories to find out how many remain.\nRemaining calories = Total calories - Calories consumed\n\nNow let's do the math:\n\nStep 1:\nTotal calories = 110 calories/serving \u00d7 16 servings/block\nTotal calories = 1760 calories\n\nStep 2:\nCalories consumed = 110 calories/serving \u00d7 5 servings\nCalories consumed = 550 calories\n\nStep 3:\nRemaining",
+    "prediction": null,
+    "reference": "1.21E+3",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 2132,
+    "question": "The basketball team sold 50 cupcakes for $2 each and 40 cookies for $0.5 each. Then the money from their sales was used to buy two basketballs that cost $40 each. The rest of the money was used to buy 20 bottles of energy drinks. How much does a bottle of energy drink cost?",
+    "completion": "Step 1: Calculate the total amount earned from selling cupcakes.\nCupcakes sold = 50, Price per cupcake = $2\nTotal earnings from cupcakes = 50 * $2\n\nStep 2: Calculate the total amount earned from selling cookies.\nCookies sold = 40, Price per cookie = $0.5\nTotal earnings from cookies = 40 * $0.5\n\nStep 3: Add the amounts from cupcakes and cookies to find the total earnings.\nTotal earnings = Total earnings from cupcakes + Total earnings from cookies\n\nStep 4: Subtract the cost of buying two basketballs from the total earnings.\nCost of one basketball = $40\nNumber of basketballs bought = 2\nTotal cost of basketballs = 2 * $40\n\nStep 5: Subtract the total cost of basketballs from the total earnings to find the remaining money.\nRemaining money = Total earnings - Total cost",
+    "prediction": null,
+    "reference": "2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 151,
+    "question": "Keiko sent 111 text messages last week. This week she sent 50 less than double what she sent last week. How many text messages did Keiko send last week and this week combined?",
+    "completion": "Step 1: Determine how many text messages Keiko sent this week.\n- Last week, Keiko sent 111 text messages.\n- This week, she sent 50 less than double what she sent last week.\n\nFirst, calculate double the number of messages from last week:\n\\[ 2 \\times 111 = 222 \\]\n\nNext, subtract 50 to find out how many messages were sent this week:\n\\[ 222 - 50 = 172 \\]\n\nSo, Keiko sent 172 text messages this week.\n\nStep 2: Calculate the total number of text messages sent over both weeks.\n- Last week's messages: 111\n- This week's messages: 172\n\nAdd these together to get the total:\n\\[ 111 + 172 = 283 \\]\n\nTherefore, Keiko sent a total",
+    "prediction": null,
+    "reference": "283",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 438,
+    "question": "While Greg was camping with his family for a week, it rained for 3 days. When he looked at the weather records, he saw that the amount of rain was 3 mm, 6 mm, and 5 mm on the three days. During the same week, it rained 26 mm at his house. How much less rain did Greg experience while camping?",
+    "completion": "Step 1: Calculate the total amount of rain Greg experienced during the 3 days.\n- Rain on the first day: 3 mm\n- Rain on the second day: 6 mm\n- Rain on the third day: 5 mm\n\nTotal rain = 3 mm + 6 mm + 5 mm = 14 mm\n\nStep 2: Compare the amount of rain Greg experienced to the amount of rain at his house.\nGreg's campsite rain: 14 mm\nHouse rain: 26 mm\n\nDifference in rainfall = House rain - Greg's campsite rain\n= 26 mm - 14 mm\n= 12 mm\n\nTherefore, Greg experienced 12 mm less rain while camping compared to what happened at his house.\n\n#### 12",
+    "prediction": "12",
+    "reference": "12",
+    "valid": true
+  },
+  {
+    "gsm8k_index": 5831,
+    "question": "When Herman\u2019s team is busy working on large projects he stops at the drive-through 5 days, every week to buy a breakfast combo for himself and 3 members of his team.  Each meal costs $4.00.  This current project will last 16 weeks.  How much will Herman spend on breakfast?",
+    "completion": "Step 1: Determine how many people are buying breakfast each day.\nHerman buys breakfast for himself and 3 team members, so there are 1 + 3 = 4 people.\n\nStep 2: Calculate the total number of meals bought per day.\nEach person gets one meal, so they buy 4 meals per day.\n\nStep 3: Find out how many meals are bought in a single week.\nSince they buy breakfast 5 days a week, they buy 4 * 5 = 20 meals per week.\n\nStep 4: Calculate the total number of meals needed over the duration of the project.\nThe project lasts 16 weeks, so they need 20 * 16 = 320 meals.\n\nStep 5: Compute the total cost of all the meals.\nEach meal costs $4.00, so the total cost is 320 * $4.00 = $1",
+    "prediction": null,
+    "reference": "1.28E+3",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 7265,
+    "question": "A bar of chocolate is made up of 60 pieces. If Michael takes half of the bar, Paige takes half of the remainder, and Mandy is left with what\u2019s left of the chocolate bar, how many pieces of chocolate will Mandy get?",
+    "completion": "Step 1: Calculate how much Michael takes.\nMichael takes half of the 60 pieces.\n\\[ \\text{Michael's share} = \\frac{60}{2} = 30 \\]\n\nStep 2: Determine how many pieces are left after Michael takes his share.\n\\[ \\text{Pieces left after Michael} = 60 - 30 = 30 \\]\n\nStep 3: Calculate how much Paige takes from the remaining pieces.\nPaige takes half of the 30 pieces.\n\\[ \\text{Paige's share} = \\frac{30}{2} = 15 \\]\n\nStep 4: Determine how many pieces are left for Mandy.\nMandy gets the remaining pieces after both Michael and Paige have taken their shares.\n\\[ \\text{Mandy's share} = 30 - 15 = 15 \\]\n\n#### Therefore, Mandy will get **",
+    "prediction": null,
+    "reference": "15",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 6134,
+    "question": "There were 200 students on a field playing football. Suddenly a military plane flew by, and 3/4 of the students looked up. How many eyes saw the airplane?",
+    "completion": "Step 1: Determine how many students looked up.\nSince 3/4 of the students looked up, we calculate:\n\\[ \\text{Students who looked up} = \\frac{3}{4} \\times 200 \\]\n\nStep 2: Calculate the number of eyes that saw the airplane.\nEach student has 2 eyes, so we multiply the number of students who looked up by 2 to find the total number of eyes.\n\nLet's do the math:\n\n\\[ \\text{Students who looked up} = \\frac{3}{4} \\times 200 = 150 \\]\n\\[ \\text{Eyes that saw the airplane} = 150 \\times 2 = 300 \\]\n\nTherefore, the final answer is 300.",
+    "prediction": null,
+    "reference": "3E+2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 6613,
+    "question": "Mr. Curtis has 325 chickens on his farm where 28 are roosters and the rest are hens. Twenty hens do not lay eggs while the rest of the hens do. How many egg-laying hens does Mr. Curtis have on his farm?",
+    "completion": "Step 1: Calculate the total number of hens.\nTotal chickens = 325\nRoosters = 28\nHens = Total chickens - Roosters\nHens = 325 - 28\n\nStep 2: Subtract the twenty non-egg-laying hens from the total number of hens to find the number of egg-laying hens.\nNon-egg-laying hens = 20\nEgg-laying hens = Hens - Non-egg-laying hens\n\nNow, let's calculate:\n\nStep 1:\nHens = 325 - 28\nHens = 297\n\nStep 2:\nEgg-laying hens = 297 - 20\nEgg-laying hens = 277\n\n#### The number of egg-laying hens is 277.",
+    "prediction": null,
+    "reference": "277",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 4115,
+    "question": "Linda was going to pass out homemade cookies to each of her 24 classmates on the last day of school.  She wanted to give each student 10 cookies and wanted to make chocolate chip cookies and oatmeal raisin cookies.  Each cookie recipe made exactly 4 dozen cookies.  She was able to make 2 batches of chocolate chip cookies before running out of chocolate chips.  She made 1 batch of oatmeal raisin cookies.  How many more batches of cookies does Linda need to bake?",
+    "completion": "To determine how many more batches of cookies Linda needs to bake, we will follow these steps:\n\n1. **Calculate the total number of cookies needed:**\n   - Linda has 24 classmates.\n   - Each classmate should receive 10 cookies.\n   \\[\n   24 \\text{ classmates} \\times 10 \\text{ cookies/classmate} = 240 \\text{ cookies}\n   \\]\n\n2. **Determine the number of cookies already baked:**\n   - Each batch makes 4 dozen cookies.\n   - There are 12 cookies in a dozen.\n   \\[\n   4 \\text{ dozen} \\times 12 \\text{ cookies/dozen} = 48 \\text{ cookies/batch}\n   \\]\n   - Linda made 2 batches of chocolate chip cookies:\n   \\[\n   2 \\text{ batches} \\times 48 \\text{",
+    "prediction": null,
+    "reference": "2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 3302,
+    "question": "Gunner has a box of mittens with 20 fewer pairs than a box of plugs. He decides to put 30 more pairs of plugs into the box of plugs. If the box of mittens has 150 pairs of mittens, how many plugs are there?",
+    "completion": "Step 1: Determine the number of pairs of plugs initially in the box.\nSince Gunner has 20 fewer pairs of mittens than plugs, we can find the initial number of plug pairs by adding 20 to the number of mitten pairs.\n\nNumber of plug pairs = Number of mitten pairs + 20\nNumber of plug pairs = 150 + 20\nNumber of plug pairs = 170\n\nStep 2: Add the additional 30 pairs of plugs to the initial number of plug pairs.\nTotal number of plug pairs after addition = Initial number of plug pairs + Additional pairs\nTotal number of plug pairs after addition = 170 + 30\nTotal number of plug pairs after addition = 200\n\nTherefore, there are 200 pairs of plugs in total.",
+    "prediction": null,
+    "reference": "4E+2",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 2602,
+    "question": "Marissa is serving her kids lunch. Each kid gets a burger with 400 calories and 5 carrot sticks with 20 calories each, and some cookies with 50 calories each. Marissa wants each kid to eat a total of 750 calories for lunch. How many cookies does each kid get?",
+    "completion": "Step 1: Calculate the total calories from burgers and carrot sticks.\nEach burger has 400 calories, and there are 5 carrot sticks at 20 calories each.\nTotal calories from burgers = 400 calories/burger * 1 burger = 400 calories\nTotal calories from carrot sticks = 20 calories/carrot stick * 5 carrot sticks = 100 calories\n\nStep 2: Add the calories from burgers and carrot sticks together.\nTotal calories from burgers and carrot sticks = 400 calories + 100 calories = 500 calories\n\nStep 3: Determine how many more calories are needed to reach the desired total.\nDesired total calories = 750 calories\nCalories already accounted for = 500 calories\nAdditional calories needed = 750 calories - 500 calories = 250 calories\n\nStep 4: Calculate",
+    "prediction": null,
+    "reference": "5",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 983,
+    "question": "Carter is twice as tall as his 24\u201d tall dog.  Betty is 12\u201d shorter than Carter.  How tall is Betty in feet?",
+    "completion": "Step 1: Determine Carter's height.\nSince Carter is twice as tall as his dog, we calculate:\n\\[ \\text{Carter's height} = 2 \\times 24\\text{ inches} = 48\\text{ inches} \\]\n\nStep 2: Calculate Betty's height.\nBetty is 12\" shorter than Carter, so:\n\\[ \\text{Betty's height} = 48\\text{ inches} - 12\\text{ inches} = 36\\text{ inches} \\]\n\nStep 3: Convert Betty's height to feet.\nThere are 12 inches in a foot, so:\n\\[ \\text{Betty's height in feet} = \\frac{36\\text{ inches}}{12\\text{ inches/foot}} = 3\\text{ feet} \\]\n\n#### Answer: 3",
+    "prediction": null,
+    "reference": "3",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 6064,
+    "question": "All of the beads in Sue's necklace are either purple, blue, or green. If Sue has 7 purple beads, twice as many blue beads as purple beads, and 11 more green beads than blue beads, how many beads are in the necklace?",
+    "completion": "Step 1: Determine the number of blue beads.\n- Sue has 7 purple beads.\n- She has twice as many blue beads as purple beads.\n\n\\[\n\\text{Number of blue beads} = 2 \\times 7 = 14\n\\]\n\nStep 2: Determine the number of green beads.\n- Sue has 11 more green beads than blue beads.\n\n\\[\n\\text{Number of green beads} = 14 + 11 = 25\n\\]\n\nStep 3: Calculate the total number of beads in the necklace.\n- Add up all the beads (purple, blue, and green).\n\n\\[\n\\text{Total number of beads} = 7 (\\text{purple}) + 14 (\\text{blue}) + 25 (\\text{green})\n\\]\n\n\\[\n\\text{Total number of beads} = 7 + 14 + 25 =",
+    "prediction": null,
+    "reference": "46",
+    "valid": false
+  },
+  {
+    "gsm8k_index": 6653,
+    "question": "Lillian is making chocolate cupcakes to sell at a fundraiser. She only has 3 cups of sugar at home. She goes to the store and buys 2 bags of sugar. Each bag of sugar contains 6 cups. The batter uses 1 cup of sugar per 12 cupcakes. She needs 2 cups of sugar to make enough frosting for a dozen cupcakes. How many dozen cupcakes can she bake and ice with the sugar she has?",
+    "completion": "Step 1: Calculate the total amount of sugar Lillian has.\n- Sugar from home: 3 cups\n- Sugar from bags bought: 2 bags * 6 cups/bag = 12 cups\n\nTotal sugar = 3 cups + 12 cups = 15 cups\n\nStep 2: Determine how much sugar is needed for one dozen cupcakes.\n- Batter: 1 cup per dozen\n- Frosting: 2 cups per dozen\n\nTotal sugar needed for one dozen cupcakes = 1 cup (batter) + 2 cups (frosting) = 3 cups\n\nStep 3: Calculate how many dozens of cupcakes she can bake and ice with 15 cups of sugar.\n- Total sugar available: 15 cups\n- Sugar needed per dozen: 3 cups\n\nNumber of dozens = 15 cups / 3 cups/dozen = 5 dozens\n\n#### 5\n\nTherefore,",
+    "prediction": "5",
+    "reference": "5",
+    "valid": true
+  },
+  {
+    "gsm8k_index": 4030,
+    "question": "In the beginning, Justine had 10 more rubber bands than Bailey but 2 fewer bands than Ylona. Bailey decided to give two bands each to Justine and Ylona so that he is left with only 8 rubber bands. How many rubber bands did Ylona have in the beginning?",
+    "completion": "Let's denote the number of rubber bands Ylona had initially as \\( y \\).\n\nFrom the information given:\n- Justine had 10 more rubber bands than Bailey.\n- Justine also had 2 fewer rubber bands than Ylona.\n\nBailey gave away 2 rubber bands to Justine and 2 rubber bands to Ylona, leaving him with 8 rubber bands. This means before giving them away, Bailey had \\( 8 + 2 + 2 = 12 \\) rubber bands.\n\nSince Justine had 10 more rubber bands than Bailey after receiving from Bailey, we can write:\n\\[ \\text{Justine's initial rubber bands} = \\text{Bailey's initial rubber bands} + 10 = 12 + 10 = 22 \\]\n\nAnd since Justine had 2 fewer rubber bands than Ylona initially, we can write:\n\\[ \\text{",
+    "prediction": null,
+    "reference": "24",
+    "valid": false
+  }
+]

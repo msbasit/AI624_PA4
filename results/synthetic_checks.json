@@ -1,0 +1,602 @@
+[
+  {
+    "id": 0,
+    "expected": "119",
+    "answer": "119",
+    "passed": true
+  },
+  {
+    "id": 1,
+    "expected": "111",
+    "answer": "111",
+    "passed": true
+  },
+  {
+    "id": 2,
+    "expected": "250",
+    "answer": "250",
+    "passed": true
+  },
+  {
+    "id": 3,
+    "expected": "182",
+    "answer": "182",
+    "passed": true
+  },
+  {
+    "id": 4,
+    "expected": "484",
+    "answer": "484",
+    "passed": true
+  },
+  {
+    "id": 5,
+    "expected": "476",
+    "answer": "476",
+    "passed": true
+  },
+  {
+    "id": 6,
+    "expected": "478",
+    "answer": "478",
+    "passed": true
+  },
+  {
+    "id": 7,
+    "expected": "244",
+    "answer": "244",
+    "passed": true
+  },
+  {
+    "id": 8,
+    "expected": "242",
+    "answer": "242",
+    "passed": true
+  },
+  {
+    "id": 9,
+    "expected": "216",
+    "answer": "216",
+    "passed": true
+  },
+  {
+    "id": 10,
+    "expected": "62",
+    "answer": "62",
+    "passed": true
+  },
+  {
+    "id": 11,
+    "expected": "482",
+    "answer": "482",
+    "passed": true
+  },
+  {
+    "id": 12,
+    "expected": "720",
+    "answer": "720",
+    "passed": true
+  },
+  {
+    "id": 13,
+    "expected": "252",
+    "answer": "252",
+    "passed": true
+  },
+  {
+    "id": 14,
+    "expected": "714",
+    "answer": "714",
+    "passed": true
+  },
+  {
+    "id": 15,
+    "expected": "718",
+    "answer": "718",
+    "passed": true
+  },
+  {
+    "id": 16,
+    "expected": "722",
+    "answer": "722",
+    "passed": true
+  },
+  {
+    "id": 17,
+    "expected": "242",
+    "answer": "242",
+    "passed": true
+  },
+  {
+    "id": 18,
+    "expected": "216",
+    "answer": "216",
+    "passed": true
+  },
+  {
+    "id": 19,
+    "expected": "200",
+    "answer": "200",
+    "passed": true
+  },
+  {
+    "id": 20,
+    "expected": "190",
+    "answer": "190",
+    "passed": true
+  },
+  {
+    "id": 21,
+    "expected": "182",
+    "answer": "182",
+    "passed": true
+  },
+  {
+    "id": 22,
+    "expected": "396",
+    "answer": "396",
+    "passed": true
+  },
+  {
+    "id": 23,
+    "expected": "292",
+    "answer": "292",
+    "passed": true
+  },
+  {
+    "id": 24,
+    "expected": "776",
+    "answer": "776",
+    "passed": true
+  },
+  {
+    "id": 25,
+    "expected": "760",
+    "answer": "760",
+    "passed": true
+  },
+  {
+    "id": 26,
+    "expected": "764",
+    "answer": "764",
+    "passed": true
+  },
+  {
+    "id": 27,
+    "expected": "424",
+    "answer": "424",
+    "passed": true
+  },
+  {
+    "id": 28,
+    "expected": "388",
+    "answer": "388",
+    "passed": true
+  },
+  {
+    "id": 29,
+    "expected": "320",
+    "answer": "320",
+    "passed": true
+  },
+  {
+    "id": 30,
+    "expected": "76",
+    "answer": "76",
+    "passed": true
+  },
+  {
+    "id": 31,
+    "expected": "772",
+    "answer": "772",
+    "passed": true
+  },
+  {
+    "id": 32,
+    "expected": "2304",
+    "answer": "2304",
+    "passed": true
+  },
+  {
+    "id": 33,
+    "expected": "432",
+    "answer": "432",
+    "passed": true
+  },
+  {
+    "id": 34,
+    "expected": "1140",
+    "answer": "1140",
+    "passed": true
+  },
+  {
+    "id": 35,
+    "expected": "1148",
+    "answer": "1148",
+    "passed": true
+  },
+  {
+    "id": 36,
+    "expected": "1156",
+    "answer": "1156",
+    "passed": true
+  },
+  {
+    "id": 37,
+    "expected": "388",
+    "answer": "388",
+    "passed": true
+  },
+  {
+    "id": 38,
+    "expected": "320",
+    "answer": "320",
+    "passed": true
+  },
+  {
+    "id": 39,
+    "expected": "288",
+    "answer": "288",
+    "passed": true
+  },
+  {
+    "id": 40,
+    "expected": "277",
+    "answer": "277",
+    "passed": true
+  },
+  {
+    "id": 41,
+    "expected": "269",
+    "answer": "269",
+    "passed": true
+  },
+  {
+    "id": 42,
+    "expected": "574",
+    "answer": "574",
+    "passed": true
+  },
+  {
+    "id": 43,
+    "expected": "426",
+    "answer": "426",
+    "passed": true
+  },
+  {
+    "id": 44,
+    "expected": "1132",
+    "answer": "1132",
+    "passed": true
+  },
+  {
+    "id": 45,
+    "expected": "1108",
+    "answer": "1108",
+    "passed": true
+  },
+  {
+    "id": 46,
+    "expected": "1114",
+    "answer": "1114",
+    "passed": true
+  },
+  {
+    "id": 47,
+    "expected": "652",
+    "answer": "652",
+    "passed": true
+  },
+  {
+    "id": 48,
+    "expected": "566",
+    "answer": "566",
+    "passed": true
+  },
+  {
+    "id": 49,
+    "expected": "440",
+    "answer": "440",
+    "passed": true
+  },
+  {
+    "id": 50,
+    "expected": "90",
+    "answer": "90",
+    "passed": true
+  },
+  {
+    "id": 51,
+    "expected": "1126",
+    "answer": "1126",
+    "passed": true
+  },
+  {
+    "id": 52,
+    "expected": "5040",
+    "answer": "5040",
+    "passed": true
+  },
+  {
+    "id": 53,
+    "expected": "660",
+    "answer": "660",
+    "passed": true
+  },
+  {
+    "id": 54,
+    "expected": "1662",
+    "answer": "1662",
+    "passed": true
+  },
+  {
+    "id": 55,
+    "expected": "1674",
+    "answer": "1674",
+    "passed": true
+  },
+  {
+    "id": 56,
+    "expected": "1686",
+    "answer": "1686",
+    "passed": true
+  },
+  {
+    "id": 57,
+    "expected": "566",
+    "answer": "566",
+    "passed": true
+  },
+  {
+    "id": 58,
+    "expected": "440",
+    "answer": "440",
+    "passed": true
+  },
+  {
+    "id": 59,
+    "expected": "392",
+    "answer": "392",
+    "passed": true
+  },
+  {
+    "id": 60,
+    "expected": "380",
+    "answer": "380",
+    "passed": true
+  },
+  {
+    "id": 61,
+    "expected": "372",
+    "answer": "372",
+    "passed": true
+  },
+  {
+    "id": 62,
+    "expected": "784",
+    "answer": "784",
+    "passed": true
+  },
+  {
+    "id": 63,
+    "expected": "584",
+    "answer": "584",
+    "passed": true
+  },
+  {
+    "id": 64,
+    "expected": "1552",
+    "answer": "1552",
+    "passed": true
+  },
+  {
+    "id": 65,
+    "expected": "1520",
+    "answer": "1520",
+    "passed": true
+  },
+  {
+    "id": 66,
+    "expected": "1528",
+    "answer": "1528",
+    "passed": true
+  },
+  {
+    "id": 67,
+    "expected": "928",
+    "answer": "928",
+    "passed": true
+  },
+  {
+    "id": 68,
+    "expected": "776",
+    "answer": "776",
+    "passed": true
+  },
+  {
+    "id": 69,
+    "expected": "576",
+    "answer": "576",
+    "passed": true
+  },
+  {
+    "id": 70,
+    "expected": "104",
+    "answer": "104",
+    "passed": true
+  },
+  {
+    "id": 71,
+    "expected": "1544",
+    "answer": "1544",
+    "passed": true
+  },
+  {
+    "id": 72,
+    "expected": "9216",
+    "answer": "9216",
+    "passed": true
+  },
+  {
+    "id": 73,
+    "expected": "936",
+    "answer": "936",
+    "passed": true
+  },
+  {
+    "id": 74,
+    "expected": "2280",
+    "answer": "2280",
+    "passed": true
+  },
+  {
+    "id": 75,
+    "expected": "2296",
+    "answer": "2296",
+    "passed": true
+  },
+  {
+    "id": 76,
+    "expected": "2312",
+    "answer": "2312",
+    "passed": true
+  },
+  {
+    "id": 77,
+    "expected": "776",
+    "answer": "776",
+    "passed": true
+  },
+  {
+    "id": 78,
+    "expected": "576",
+    "answer": "576",
+    "passed": true
+  },
+  {
+    "id": 79,
+    "expected": "512",
+    "answer": "512",
+    "passed": true
+  },
+  {
+    "id": 80,
+    "expected": "499",
+    "answer": "499",
+    "passed": true
+  },
+  {
+    "id": 81,
+    "expected": "491",
+    "answer": "491",
+    "passed": true
+  },
+  {
+    "id": 82,
+    "expected": "1026",
+    "answer": "1026",
+    "passed": true
+  },
+  {
+    "id": 83,
+    "expected": "766",
+    "answer": "766",
+    "passed": true
+  },
+  {
+    "id": 84,
+    "expected": "2036",
+    "answer": "2036",
+    "passed": true
+  },
+  {
+    "id": 85,
+    "expected": "1996",
+    "answer": "1996",
+    "passed": true
+  },
+  {
+    "id": 86,
+    "expected": "2006",
+    "answer": "2006",
+    "passed": true
+  },
+  {
+    "id": 87,
+    "expected": "1252",
+    "answer": "1252",
+    "passed": true
+  },
+  {
+    "id": 88,
+    "expected": "1018",
+    "answer": "1018",
+    "passed": true
+  },
+  {
+    "id": 89,
+    "expected": "728",
+    "answer": "728",
+    "passed": true
+  },
+  {
+    "id": 90,
+    "expected": "118",
+    "answer": "118",
+    "passed": true
+  },
+  {
+    "id": 91,
+    "expected": "2026",
+    "answer": "2026",
+    "passed": true
+  },
+  {
+    "id": 92,
+    "expected": "15120",
+    "answer": "15120",
+    "passed": true
+  },
+  {
+    "id": 93,
+    "expected": "1260",
+    "answer": "1260",
+    "passed": true
+  },
+  {
+    "id": 94,
+    "expected": "2994",
+    "answer": "2994",
+    "passed": true
+  },
+  {
+    "id": 95,
+    "expected": "3014",
+    "answer": "3014",
+    "passed": true
+  },
+  {
+    "id": 96,
+    "expected": "3034",
+    "answer": "3034",
+    "passed": true
+  },
+  {
+    "id": 97,
+    "expected": "1018",
+    "answer": "1018",
+    "passed": true
+  },
+  {
+    "id": 98,
+    "expected": "728",
+    "answer": "728",
+    "passed": true
+  },
+  {
+    "id": 99,
+    "expected": "648",
+    "answer": "648",
+    "passed": true
+  }
+]

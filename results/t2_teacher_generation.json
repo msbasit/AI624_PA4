@@ -1,0 +1,6 @@
+{
+  "seconds": 708.0151354,
+  "teacher": "Qwen/Qwen2.5-1.5B-Instruct",
+  "prompt": "Solve the arithmetic problem using at most 3 short lines of calculations (under 80 words). No headings or restatement. Finish with a separate line containing #### and ONLY the number. Example format: 3 * 4 = 12. 12 - 2 = 10.\n#### 10",
+  "timing_scope": "Generation wall time for the last resumed segment (remaining 616 questions), not the complete 1000-question run"
+}

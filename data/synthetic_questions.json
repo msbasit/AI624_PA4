@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 0,
+    "family": 0,
+    "variant": 0,
+    "question": "A baker makes 20 trays of 12 rolls. She sells 2 rolls and divides the rest equally between 2 shops. How many rolls does each shop receive?",
+    "solution": "There are 20*12=240 rolls. After selling 2, 238 remain. Each shop gets 238/2=119.\n#### 119",
+    "answer": "119",
+    "checked_answer": 119,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 1,
+    "family": 1,
+    "variant": 0,
+    "question": "A bus starts with 240 passengers. At the next stop 20 get off and 2 get on. At the last stop half of the passengers get off. How many remain?",
+    "solution": "After the stop there are 240-20+2=222. Half remain: 222/2=111.\n#### 111",
+    "answer": "111",
+    "checked_answer": 111,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 2,
+    "family": 2,
+    "variant": 0,
+    "question": "Leena saves $20 each week for 12 weeks. She then buys a book for $2 and earns $12 doing chores. How many dollars does she have?",
+    "solution": "Savings are 20*12=240. After the book and chores: 240-2+12=250.\n#### 250",
+    "answer": "250",
+    "checked_answer": 250,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 3,
+    "family": 3,
+    "variant": 0,
+    "question": "A garden has 20 rows with 12 plants each. A quarter of the plants die. The gardener replaces 2 plants. How many living plants are there now?",
+    "solution": "Initially 240 plants. A quarter is 60; 180 survive. Add 2: 182.\n#### 182",
+    "answer": "182",
+    "checked_answer": 182,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 4,
+    "family": 4,
+    "variant": 0,
+    "question": "A cyclist rides at 20 kilometers per hour for 12 hours, then walks 2 more kilometers. If the return trip follows the same route, what is the total distance traveled in kilometers?",
+    "solution": "One way is 20*12+2=242 km. Round trip: 2*242=484 km.\n#### 484",
+    "answer": "484",
+    "checked_answer": 484,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 5,
+    "family": 5,
+    "variant": 0,
+    "question": "A store buys 20 boxes with 12 pencils each. It gives away 2 pencils and sells the rest for $2 each. What is its sales revenue in dollars?",
+    "solution": "Total pencils: 240. Sold: 240-2=238. Revenue: 2*238=476.\n#### 476",
+    "answer": "476",
+    "checked_answer": 476,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 6,
+    "family": 6,
+    "variant": 0,
+    "question": "A tank holds 240 liters. A pump adds 20 liters per minute for 12 minutes, then 2 liters leak out. How many liters are left?",
+    "solution": "Added water: 240 liters. Final volume: 240+240-2=478.\n#### 478",
+    "answer": "478",
+    "checked_answer": 478,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 7,
+    "family": 7,
+    "variant": 0,
+    "question": "A museum sells 20 adult tickets at $12 each and 12 child tickets at $2 each. It spends $20 on printing. What is the remaining revenue in dollars?",
+    "solution": "Adult revenue 240; child revenue 24. Subtract printing: 240+24-20=244.\n#### 244",
+    "answer": "244",
+    "checked_answer": 244,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 8,
+    "family": 8,
+    "variant": 0,
+    "question": "A runner completes 12 laps of an 2000-meter track and then runs 200 extra meters. How many hundred-meter segments did the runner cover?",
+    "solution": "Laps cover 24000 meters. Total 24200 meters. Divide by 100: 242.\n#### 242",
+    "answer": "242",
+    "checked_answer": 242,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 9,
+    "family": 9,
+    "variant": 0,
+    "question": "A farmer gathers 240 eggs. She packs 2 cartons containing 12 eggs each. How many eggs remain unpacked?",
+    "solution": "Packed eggs: 2*12=24. Remaining: 240-24=216.\n#### 216",
+    "answer": "216",
+    "checked_answer": 216,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 10,
+    "family": 10,
+    "variant": 0,
+    "question": "Mina is 20 years old and her sister is 2 years younger. What will be the sum of their ages in 12 years?",
+    "solution": "Sister is 20-2=18. In 12 years the sum is 20+12+18+12=62.\n#### 62",
+    "answer": "62",
+    "checked_answer": 62,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 11,
+    "family": 11,
+    "variant": 0,
+    "question": "A recipe for 12 people uses 20 grams of flour per person. You prepare it for twice as many people and spill 2 grams of extra flour. How many grams of flour are used including the spill?",
+    "solution": "Food needs 2*12*20=480 grams. Including the spill: 480+2=482.\n#### 482",
+    "answer": "482",
+    "checked_answer": 482,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 12,
+    "family": 12,
+    "variant": 0,
+    "question": "A club has 240 members. Half pay a $2 fee and the other half pay a $4 fee. What is the total collected in dollars?",
+    "solution": "Each half has 120 members. Revenue is 120*(2+4)=720.\n#### 720",
+    "answer": "720",
+    "checked_answer": 720,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 13,
+    "family": 13,
+    "variant": 0,
+    "question": "A warehouse has 20 crates holding 12 bottles each. It receives 2 more identical crates and ships 12 individual bottles. How many bottles remain?",
+    "solution": "There are 22 crates before shipping, holding 264 bottles. Subtract 12: 252.\n#### 252",
+    "answer": "252",
+    "checked_answer": 252,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 14,
+    "family": 14,
+    "variant": 0,
+    "question": "A worker earns $20 per hour for 12 hours each day. Over 3 days, she spends $2 per day on transport. How much money does she keep in dollars?",
+    "solution": "Daily net earnings: 20*12-2=238. Three days: 3*238=714.\n#### 714",
+    "answer": "714",
+    "checked_answer": 714,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 15,
+    "family": 15,
+    "variant": 0,
+    "question": "Two teams collect cans. Team A collects 240 cans. Team B collects 2 fewer than twice as many as A. How many cans do they collect together?",
+    "solution": "Team B has 2*240-2=478. Together: 240+478=718.\n#### 718",
+    "answer": "718",
+    "checked_answer": 718,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 16,
+    "family": 16,
+    "variant": 0,
+    "question": "A shop marks a $80 item down by 25 percent. A customer buys 12 of these discounted items and pays $2 for delivery. What is the total bill in dollars?",
+    "solution": "Each discounted item costs 80*3/4=60. Items cost 720. With delivery: 722.\n#### 722",
+    "answer": "722",
+    "checked_answer": 722,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 17,
+    "family": 17,
+    "variant": 0,
+    "question": "A class reads 20 pages per day for 12 days. They then reread 2 of those pages. How many page readings did they do in total, counting rereads?",
+    "solution": "First readings: 20*12=240. Add 2 rereads: 242.\n#### 242",
+    "answer": "242",
+    "checked_answer": 242,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 18,
+    "family": 18,
+    "variant": 0,
+    "question": "A truck can carry 20 kilograms. It carries 12 packages weighing 2 kilograms each. How many more kilograms can it carry if its capacity is actually increased to 240 kilograms?",
+    "solution": "The updated capacity is 240. Current load is 12*2=24. Remaining capacity: 240-24=216.\n#### 216",
+    "answer": "216",
+    "checked_answer": 216,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 19,
+    "family": 19,
+    "variant": 0,
+    "question": "A school has 20 classrooms with 12 chairs each. It moves 2 chairs from each classroom into the hall. How many chairs remain in the classrooms in total?",
+    "solution": "Each room retains 12-2=10. Total remaining: 20*10=200.\n#### 200",
+    "answer": "200",
+    "checked_answer": 200,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 20,
+    "family": 0,
+    "variant": 1,
+    "question": "A baker makes 24 trays of 16 rolls. She sells 4 rolls and divides the rest equally between 2 shops. How many rolls does each shop receive?",
+    "solution": "There are 24*16=384 rolls. After selling 4, 380 remain. Each shop gets 380/2=190.\n#### 190",
+    "answer": "190",
+    "checked_answer": 190,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 21,
+    "family": 1,
+    "variant": 1,
+    "question": "A bus starts with 384 passengers. At the next stop 24 get off and 4 get on. At the last stop half of the passengers get off. How many remain?",
+    "solution": "After the stop there are 384-24+4=364. Half remain: 364/2=182.\n#### 182",
+    "answer": "182",
+    "checked_answer": 182,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 22,
+    "family": 2,
+    "variant": 1,
+    "question": "Leena saves $24 each week for 16 weeks. She then buys a book for $4 and earns $16 doing chores. How many dollars does she have?",
+    "solution": "Savings are 24*16=384. After the book and chores: 384-4+16=396.\n#### 396",
+    "answer": "396",
+    "checked_answer": 396,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 23,
+    "family": 3,
+    "variant": 1,
+    "question": "A garden has 24 rows with 16 plants each. A quarter of the plants die. The gardener replaces 4 plants. How many living plants are there now?",
+    "solution": "Initially 384 plants. A quarter is 96; 288 survive. Add 4: 292.\n#### 292",
+    "answer": "292",
+    "checked_answer": 292,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 24,
+    "family": 4,
+    "variant": 1,
+    "question": "A cyclist rides at 24 kilometers per hour for 16 hours, then walks 4 more kilometers. If the return trip follows the same route, what is the total distance traveled in kilometers?",
+    "solution": "One way is 24*16+4=388 km. Round trip: 2*388=776 km.\n#### 776",
+    "answer": "776",
+    "checked_answer": 776,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 25,
+    "family": 5,
+    "variant": 1,
+    "question": "A store buys 24 boxes with 16 pencils each. It gives away 4 pencils and sells the rest for $2 each. What is its sales revenue in dollars?",
+    "solution": "Total pencils: 384. Sold: 384-4=380. Revenue: 2*380=760.\n#### 760",
+    "answer": "760",
+    "checked_answer": 760,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 26,
+    "family": 6,
+    "variant": 1,
+    "question": "A tank holds 384 liters. A pump adds 24 liters per minute for 16 minutes, then 4 liters leak out. How many liters are left?",
+    "solution": "Added water: 384 liters. Final volume: 384+384-4=764.\n#### 764",
+    "answer": "764",
+    "checked_answer": 764,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 27,
+    "family": 7,
+    "variant": 1,
+    "question": "A museum sells 24 adult tickets at $16 each and 16 child tickets at $4 each. It spends $24 on printing. What is the remaining revenue in dollars?",
+    "solution": "Adult revenue 384; child revenue 64. Subtract printing: 384+64-24=424.\n#### 424",
+    "answer": "424",
+    "checked_answer": 424,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 28,
+    "family": 8,
+    "variant": 1,
+    "question": "A runner completes 16 laps of an 2400-meter track and then runs 400 extra meters. How many hundred-meter segments did the runner cover?",
+    "solution": "Laps cover 38400 meters. Total 38800 meters. Divide by 100: 388.\n#### 388",
+    "answer": "388",
+    "checked_answer": 388,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 29,
+    "family": 9,
+    "variant": 1,
+    "question": "A farmer gathers 384 eggs. She packs 4 cartons containing 16 eggs each. How many eggs remain unpacked?",
+    "solution": "Packed eggs: 4*16=64. Remaining: 384-64=320.\n#### 320",
+    "answer": "320",
+    "checked_answer": 320,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 30,
+    "family": 10,
+    "variant": 1,
+    "question": "Mina is 24 years old and her sister is 4 years younger. What will be the sum of their ages in 16 years?",
+    "solution": "Sister is 24-4=20. In 16 years the sum is 24+16+20+16=76.\n#### 76",
+    "answer": "76",
+    "checked_answer": 76,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 31,
+    "family": 11,
+    "variant": 1,
+    "question": "A recipe for 16 people uses 24 grams of flour per person. You prepare it for twice as many people and spill 4 grams of extra flour. How many grams of flour are used including the spill?",
+    "solution": "Food needs 2*16*24=768 grams. Including the spill: 768+4=772.\n#### 772",
+    "answer": "772",
+    "checked_answer": 772,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 32,
+    "family": 12,
+    "variant": 1,
+    "question": "A club has 384 members. Half pay a $4 fee and the other half pay a $8 fee. What is the total collected in dollars?",
+    "solution": "Each half has 192 members. Revenue is 192*(4+8)=2304.\n#### 2304",
+    "answer": "2304",
+    "checked_answer": 2304,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 33,
+    "family": 13,
+    "variant": 1,
+    "question": "A warehouse has 24 crates holding 16 bottles each. It receives 4 more identical crates and ships 16 individual bottles. How many bottles remain?",
+    "solution": "There are 28 crates before shipping, holding 448 bottles. Subtract 16: 432.\n#### 432",
+    "answer": "432",
+    "checked_answer": 432,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 34,
+    "family": 14,
+    "variant": 1,
+    "question": "A worker earns $24 per hour for 16 hours each day. Over 3 days, she spends $4 per day on transport. How much money does she keep in dollars?",
+    "solution": "Daily net earnings: 24*16-4=380. Three days: 3*380=1140.\n#### 1140",
+    "answer": "1140",
+    "checked_answer": 1140,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 35,
+    "family": 15,
+    "variant": 1,
+    "question": "Two teams collect cans. Team A collects 384 cans. Team B collects 4 fewer than twice as many as A. How many cans do they collect together?",
+    "solution": "Team B has 2*384-4=764. Together: 384+764=1148.\n#### 1148",
+    "answer": "1148",
+    "checked_answer": 1148,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 36,
+    "family": 16,
+    "variant": 1,
+    "question": "A shop marks a $96 item down by 25 percent. A customer buys 16 of these discounted items and pays $4 for delivery. What is the total bill in dollars?",
+    "solution": "Each discounted item costs 96*3/4=72. Items cost 1152. With delivery: 1156.\n#### 1156",
+    "answer": "1156",
+    "checked_answer": 1156,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 37,
+    "family": 17,
+    "variant": 1,
+    "question": "A class reads 24 pages per day for 16 days. They then reread 4 of those pages. How many page readings did they do in total, counting rereads?",
+    "solution": "First readings: 24*16=384. Add 4 rereads: 388.\n#### 388",
+    "answer": "388",
+    "checked_answer": 388,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 38,
+    "family": 18,
+    "variant": 1,
+    "question": "A truck can carry 24 kilograms. It carries 16 packages weighing 4 kilograms each. How many more kilograms can it carry if its capacity is actually increased to 384 kilograms?",
+    "solution": "The updated capacity is 384. Current load is 16*4=64. Remaining capacity: 384-64=320.\n#### 320",
+    "answer": "320",
+    "checked_answer": 320,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 39,
+    "family": 19,
+    "variant": 1,
+    "question": "A school has 24 classrooms with 16 chairs each. It moves 4 chairs from each classroom into the hall. How many chairs remain in the classrooms in total?",
+    "solution": "Each room retains 16-4=12. Total remaining: 24*12=288.\n#### 288",
+    "answer": "288",
+    "checked_answer": 288,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 40,
+    "family": 0,
+    "variant": 2,
+    "question": "A baker makes 28 trays of 20 rolls. She sells 6 rolls and divides the rest equally between 2 shops. How many rolls does each shop receive?",
+    "solution": "There are 28*20=560 rolls. After selling 6, 554 remain. Each shop gets 554/2=277.\n#### 277",
+    "answer": "277",
+    "checked_answer": 277,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 41,
+    "family": 1,
+    "variant": 2,
+    "question": "A bus starts with 560 passengers. At the next stop 28 get off and 6 get on. At the last stop half of the passengers get off. How many remain?",
+    "solution": "After the stop there are 560-28+6=538. Half remain: 538/2=269.\n#### 269",
+    "answer": "269",
+    "checked_answer": 269,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 42,
+    "family": 2,
+    "variant": 2,
+    "question": "Leena saves $28 each week for 20 weeks. She then buys a book for $6 and earns $20 doing chores. How many dollars does she have?",
+    "solution": "Savings are 28*20=560. After the book and chores: 560-6+20=574.\n#### 574",
+    "answer": "574",
+    "checked_answer": 574,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 43,
+    "family": 3,
+    "variant": 2,
+    "question": "A garden has 28 rows with 20 plants each. A quarter of the plants die. The gardener replaces 6 plants. How many living plants are there now?",
+    "solution": "Initially 560 plants. A quarter is 140; 420 survive. Add 6: 426.\n#### 426",
+    "answer": "426",
+    "checked_answer": 426,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 44,
+    "family": 4,
+    "variant": 2,
+    "question": "A cyclist rides at 28 kilometers per hour for 20 hours, then walks 6 more kilometers. If the return trip follows the same route, what is the total distance traveled in kilometers?",
+    "solution": "One way is 28*20+6=566 km. Round trip: 2*566=1132 km.\n#### 1132",
+    "answer": "1132",
+    "checked_answer": 1132,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 45,
+    "family": 5,
+    "variant": 2,
+    "question": "A store buys 28 boxes with 20 pencils each. It gives away 6 pencils and sells the rest for $2 each. What is its sales revenue in dollars?",
+    "solution": "Total pencils: 560. Sold: 560-6=554. Revenue: 2*554=1108.\n#### 1108",
+    "answer": "1108",
+    "checked_answer": 1108,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 46,
+    "family": 6,
+    "variant": 2,
+    "question": "A tank holds 560 liters. A pump adds 28 liters per minute for 20 minutes, then 6 liters leak out. How many liters are left?",
+    "solution": "Added water: 560 liters. Final volume: 560+560-6=1114.\n#### 1114",
+    "answer": "1114",
+    "checked_answer": 1114,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 47,
+    "family": 7,
+    "variant": 2,
+    "question": "A museum sells 28 adult tickets at $20 each and 20 child tickets at $6 each. It spends $28 on printing. What is the remaining revenue in dollars?",
+    "solution": "Adult revenue 560; child revenue 120. Subtract printing: 560+120-28=652.\n#### 652",
+    "answer": "652",
+    "checked_answer": 652,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 48,
+    "family": 8,
+    "variant": 2,
+    "question": "A runner completes 20 laps of an 2800-meter track and then runs 600 extra meters. How many hundred-meter segments did the runner cover?",
+    "solution": "Laps cover 56000 meters. Total 56600 meters. Divide by 100: 566.\n#### 566",
+    "answer": "566",
+    "checked_answer": 566,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 49,
+    "family": 9,
+    "variant": 2,
+    "question": "A farmer gathers 560 eggs. She packs 6 cartons containing 20 eggs each. How many eggs remain unpacked?",
+    "solution": "Packed eggs: 6*20=120. Remaining: 560-120=440.\n#### 440",
+    "answer": "440",
+    "checked_answer": 440,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 50,
+    "family": 10,
+    "variant": 2,
+    "question": "Mina is 28 years old and her sister is 6 years younger. What will be the sum of their ages in 20 years?",
+    "solution": "Sister is 28-6=22. In 20 years the sum is 28+20+22+20=90.\n#### 90",
+    "answer": "90",
+    "checked_answer": 90,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 51,
+    "family": 11,
+    "variant": 2,
+    "question": "A recipe for 20 people uses 28 grams of flour per person. You prepare it for twice as many people and spill 6 grams of extra flour. How many grams of flour are used including the spill?",
+    "solution": "Food needs 2*20*28=1120 grams. Including the spill: 1120+6=1126.\n#### 1126",
+    "answer": "1126",
+    "checked_answer": 1126,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 52,
+    "family": 12,
+    "variant": 2,
+    "question": "A club has 560 members. Half pay a $6 fee and the other half pay a $12 fee. What is the total collected in dollars?",
+    "solution": "Each half has 280 members. Revenue is 280*(6+12)=5040.\n#### 5040",
+    "answer": "5040",
+    "checked_answer": 5040,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 53,
+    "family": 13,
+    "variant": 2,
+    "question": "A warehouse has 28 crates holding 20 bottles each. It receives 6 more identical crates and ships 20 individual bottles. How many bottles remain?",
+    "solution": "There are 34 crates before shipping, holding 680 bottles. Subtract 20: 660.\n#### 660",
+    "answer": "660",
+    "checked_answer": 660,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 54,
+    "family": 14,
+    "variant": 2,
+    "question": "A worker earns $28 per hour for 20 hours each day. Over 3 days, she spends $6 per day on transport. How much money does she keep in dollars?",
+    "solution": "Daily net earnings: 28*20-6=554. Three days: 3*554=1662.\n#### 1662",
+    "answer": "1662",
+    "checked_answer": 1662,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 55,
+    "family": 15,
+    "variant": 2,
+    "question": "Two teams collect cans. Team A collects 560 cans. Team B collects 6 fewer than twice as many as A. How many cans do they collect together?",
+    "solution": "Team B has 2*560-6=1114. Together: 560+1114=1674.\n#### 1674",
+    "answer": "1674",
+    "checked_answer": 1674,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 56,
+    "family": 16,
+    "variant": 2,
+    "question": "A shop marks a $112 item down by 25 percent. A customer buys 20 of these discounted items and pays $6 for delivery. What is the total bill in dollars?",
+    "solution": "Each discounted item costs 112*3/4=84. Items cost 1680. With delivery: 1686.\n#### 1686",
+    "answer": "1686",
+    "checked_answer": 1686,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 57,
+    "family": 17,
+    "variant": 2,
+    "question": "A class reads 28 pages per day for 20 days. They then reread 6 of those pages. How many page readings did they do in total, counting rereads?",
+    "solution": "First readings: 28*20=560. Add 6 rereads: 566.\n#### 566",
+    "answer": "566",
+    "checked_answer": 566,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 58,
+    "family": 18,
+    "variant": 2,
+    "question": "A truck can carry 28 kilograms. It carries 20 packages weighing 6 kilograms each. How many more kilograms can it carry if its capacity is actually increased to 560 kilograms?",
+    "solution": "The updated capacity is 560. Current load is 20*6=120. Remaining capacity: 560-120=440.\n#### 440",
+    "answer": "440",
+    "checked_answer": 440,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 59,
+    "family": 19,
+    "variant": 2,
+    "question": "A school has 28 classrooms with 20 chairs each. It moves 6 chairs from each classroom into the hall. How many chairs remain in the classrooms in total?",
+    "solution": "Each room retains 20-6=14. Total remaining: 28*14=392.\n#### 392",
+    "answer": "392",
+    "checked_answer": 392,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 60,
+    "family": 0,
+    "variant": 3,
+    "question": "A baker makes 32 trays of 24 rolls. She sells 8 rolls and divides the rest equally between 2 shops. How many rolls does each shop receive?",
+    "solution": "There are 32*24=768 rolls. After selling 8, 760 remain. Each shop gets 760/2=380.\n#### 380",
+    "answer": "380",
+    "checked_answer": 380,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 61,
+    "family": 1,
+    "variant": 3,
+    "question": "A bus starts with 768 passengers. At the next stop 32 get off and 8 get on. At the last stop half of the passengers get off. How many remain?",
+    "solution": "After the stop there are 768-32+8=744. Half remain: 744/2=372.\n#### 372",
+    "answer": "372",
+    "checked_answer": 372,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 62,
+    "family": 2,
+    "variant": 3,
+    "question": "Leena saves $32 each week for 24 weeks. She then buys a book for $8 and earns $24 doing chores. How many dollars does she have?",
+    "solution": "Savings are 32*24=768. After the book and chores: 768-8+24=784.\n#### 784",
+    "answer": "784",
+    "checked_answer": 784,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 63,
+    "family": 3,
+    "variant": 3,
+    "question": "A garden has 32 rows with 24 plants each. A quarter of the plants die. The gardener replaces 8 plants. How many living plants are there now?",
+    "solution": "Initially 768 plants. A quarter is 192; 576 survive. Add 8: 584.\n#### 584",
+    "answer": "584",
+    "checked_answer": 584,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 64,
+    "family": 4,
+    "variant": 3,
+    "question": "A cyclist rides at 32 kilometers per hour for 24 hours, then walks 8 more kilometers. If the return trip follows the same route, what is the total distance traveled in kilometers?",
+    "solution": "One way is 32*24+8=776 km. Round trip: 2*776=1552 km.\n#### 1552",
+    "answer": "1552",
+    "checked_answer": 1552,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 65,
+    "family": 5,
+    "variant": 3,
+    "question": "A store buys 32 boxes with 24 pencils each. It gives away 8 pencils and sells the rest for $2 each. What is its sales revenue in dollars?",
+    "solution": "Total pencils: 768. Sold: 768-8=760. Revenue: 2*760=1520.\n#### 1520",
+    "answer": "1520",
+    "checked_answer": 1520,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 66,
+    "family": 6,
+    "variant": 3,
+    "question": "A tank holds 768 liters. A pump adds 32 liters per minute for 24 minutes, then 8 liters leak out. How many liters are left?",
+    "solution": "Added water: 768 liters. Final volume: 768+768-8=1528.\n#### 1528",
+    "answer": "1528",
+    "checked_answer": 1528,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 67,
+    "family": 7,
+    "variant": 3,
+    "question": "A museum sells 32 adult tickets at $24 each and 24 child tickets at $8 each. It spends $32 on printing. What is the remaining revenue in dollars?",
+    "solution": "Adult revenue 768; child revenue 192. Subtract printing: 768+192-32=928.\n#### 928",
+    "answer": "928",
+    "checked_answer": 928,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 68,
+    "family": 8,
+    "variant": 3,
+    "question": "A runner completes 24 laps of an 3200-meter track and then runs 800 extra meters. How many hundred-meter segments did the runner cover?",
+    "solution": "Laps cover 76800 meters. Total 77600 meters. Divide by 100: 776.\n#### 776",
+    "answer": "776",
+    "checked_answer": 776,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 69,
+    "family": 9,
+    "variant": 3,
+    "question": "A farmer gathers 768 eggs. She packs 8 cartons containing 24 eggs each. How many eggs remain unpacked?",
+    "solution": "Packed eggs: 8*24=192. Remaining: 768-192=576.\n#### 576",
+    "answer": "576",
+    "checked_answer": 576,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 70,
+    "family": 10,
+    "variant": 3,
+    "question": "Mina is 32 years old and her sister is 8 years younger. What will be the sum of their ages in 24 years?",
+    "solution": "Sister is 32-8=24. In 24 years the sum is 32+24+24+24=104.\n#### 104",
+    "answer": "104",
+    "checked_answer": 104,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 71,
+    "family": 11,
+    "variant": 3,
+    "question": "A recipe for 24 people uses 32 grams of flour per person. You prepare it for twice as many people and spill 8 grams of extra flour. How many grams of flour are used including the spill?",
+    "solution": "Food needs 2*24*32=1536 grams. Including the spill: 1536+8=1544.\n#### 1544",
+    "answer": "1544",
+    "checked_answer": 1544,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 72,
+    "family": 12,
+    "variant": 3,
+    "question": "A club has 768 members. Half pay a $8 fee and the other half pay a $16 fee. What is the total collected in dollars?",
+    "solution": "Each half has 384 members. Revenue is 384*(8+16)=9216.\n#### 9216",
+    "answer": "9216",
+    "checked_answer": 9216,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 73,
+    "family": 13,
+    "variant": 3,
+    "question": "A warehouse has 32 crates holding 24 bottles each. It receives 8 more identical crates and ships 24 individual bottles. How many bottles remain?",
+    "solution": "There are 40 crates before shipping, holding 960 bottles. Subtract 24: 936.\n#### 936",
+    "answer": "936",
+    "checked_answer": 936,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 74,
+    "family": 14,
+    "variant": 3,
+    "question": "A worker earns $32 per hour for 24 hours each day. Over 3 days, she spends $8 per day on transport. How much money does she keep in dollars?",
+    "solution": "Daily net earnings: 32*24-8=760. Three days: 3*760=2280.\n#### 2280",
+    "answer": "2280",
+    "checked_answer": 2280,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 75,
+    "family": 15,
+    "variant": 3,
+    "question": "Two teams collect cans. Team A collects 768 cans. Team B collects 8 fewer than twice as many as A. How many cans do they collect together?",
+    "solution": "Team B has 2*768-8=1528. Together: 768+1528=2296.\n#### 2296",
+    "answer": "2296",
+    "checked_answer": 2296,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 76,
+    "family": 16,
+    "variant": 3,
+    "question": "A shop marks a $128 item down by 25 percent. A customer buys 24 of these discounted items and pays $8 for delivery. What is the total bill in dollars?",
+    "solution": "Each discounted item costs 128*3/4=96. Items cost 2304. With delivery: 2312.\n#### 2312",
+    "answer": "2312",
+    "checked_answer": 2312,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 77,
+    "family": 17,
+    "variant": 3,
+    "question": "A class reads 32 pages per day for 24 days. They then reread 8 of those pages. How many page readings did they do in total, counting rereads?",
+    "solution": "First readings: 32*24=768. Add 8 rereads: 776.\n#### 776",
+    "answer": "776",
+    "checked_answer": 776,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 78,
+    "family": 18,
+    "variant": 3,
+    "question": "A truck can carry 32 kilograms. It carries 24 packages weighing 8 kilograms each. How many more kilograms can it carry if its capacity is actually increased to 768 kilograms?",
+    "solution": "The updated capacity is 768. Current load is 24*8=192. Remaining capacity: 768-192=576.\n#### 576",
+    "answer": "576",
+    "checked_answer": 576,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 79,
+    "family": 19,
+    "variant": 3,
+    "question": "A school has 32 classrooms with 24 chairs each. It moves 8 chairs from each classroom into the hall. How many chairs remain in the classrooms in total?",
+    "solution": "Each room retains 24-8=16. Total remaining: 32*16=512.\n#### 512",
+    "answer": "512",
+    "checked_answer": 512,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 80,
+    "family": 0,
+    "variant": 4,
+    "question": "A baker makes 36 trays of 28 rolls. She sells 10 rolls and divides the rest equally between 2 shops. How many rolls does each shop receive?",
+    "solution": "There are 36*28=1008 rolls. After selling 10, 998 remain. Each shop gets 998/2=499.\n#### 499",
+    "answer": "499",
+    "checked_answer": 499,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 81,
+    "family": 1,
+    "variant": 4,
+    "question": "A bus starts with 1008 passengers. At the next stop 36 get off and 10 get on. At the last stop half of the passengers get off. How many remain?",
+    "solution": "After the stop there are 1008-36+10=982. Half remain: 982/2=491.\n#### 491",
+    "answer": "491",
+    "checked_answer": 491,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 82,
+    "family": 2,
+    "variant": 4,
+    "question": "Leena saves $36 each week for 28 weeks. She then buys a book for $10 and earns $28 doing chores. How many dollars does she have?",
+    "solution": "Savings are 36*28=1008. After the book and chores: 1008-10+28=1026.\n#### 1026",
+    "answer": "1026",
+    "checked_answer": 1026,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 83,
+    "family": 3,
+    "variant": 4,
+    "question": "A garden has 36 rows with 28 plants each. A quarter of the plants die. The gardener replaces 10 plants. How many living plants are there now?",
+    "solution": "Initially 1008 plants. A quarter is 252; 756 survive. Add 10: 766.\n#### 766",
+    "answer": "766",
+    "checked_answer": 766,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 84,
+    "family": 4,
+    "variant": 4,
+    "question": "A cyclist rides at 36 kilometers per hour for 28 hours, then walks 10 more kilometers. If the return trip follows the same route, what is the total distance traveled in kilometers?",
+    "solution": "One way is 36*28+10=1018 km. Round trip: 2*1018=2036 km.\n#### 2036",
+    "answer": "2036",
+    "checked_answer": 2036,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 85,
+    "family": 5,
+    "variant": 4,
+    "question": "A store buys 36 boxes with 28 pencils each. It gives away 10 pencils and sells the rest for $2 each. What is its sales revenue in dollars?",
+    "solution": "Total pencils: 1008. Sold: 1008-10=998. Revenue: 2*998=1996.\n#### 1996",
+    "answer": "1996",
+    "checked_answer": 1996,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 86,
+    "family": 6,
+    "variant": 4,
+    "question": "A tank holds 1008 liters. A pump adds 36 liters per minute for 28 minutes, then 10 liters leak out. How many liters are left?",
+    "solution": "Added water: 1008 liters. Final volume: 1008+1008-10=2006.\n#### 2006",
+    "answer": "2006",
+    "checked_answer": 2006,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 87,
+    "family": 7,
+    "variant": 4,
+    "question": "A museum sells 36 adult tickets at $28 each and 28 child tickets at $10 each. It spends $36 on printing. What is the remaining revenue in dollars?",
+    "solution": "Adult revenue 1008; child revenue 280. Subtract printing: 1008+280-36=1252.\n#### 1252",
+    "answer": "1252",
+    "checked_answer": 1252,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 88,
+    "family": 8,
+    "variant": 4,
+    "question": "A runner completes 28 laps of an 3600-meter track and then runs 1000 extra meters. How many hundred-meter segments did the runner cover?",
+    "solution": "Laps cover 100800 meters. Total 101800 meters. Divide by 100: 1018.\n#### 1018",
+    "answer": "1018",
+    "checked_answer": 1018,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 89,
+    "family": 9,
+    "variant": 4,
+    "question": "A farmer gathers 1008 eggs. She packs 10 cartons containing 28 eggs each. How many eggs remain unpacked?",
+    "solution": "Packed eggs: 10*28=280. Remaining: 1008-280=728.\n#### 728",
+    "answer": "728",
+    "checked_answer": 728,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 90,
+    "family": 10,
+    "variant": 4,
+    "question": "Mina is 36 years old and her sister is 10 years younger. What will be the sum of their ages in 28 years?",
+    "solution": "Sister is 36-10=26. In 28 years the sum is 36+28+26+28=118.\n#### 118",
+    "answer": "118",
+    "checked_answer": 118,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 91,
+    "family": 11,
+    "variant": 4,
+    "question": "A recipe for 28 people uses 36 grams of flour per person. You prepare it for twice as many people and spill 10 grams of extra flour. How many grams of flour are used including the spill?",
+    "solution": "Food needs 2*28*36=2016 grams. Including the spill: 2016+10=2026.\n#### 2026",
+    "answer": "2026",
+    "checked_answer": 2026,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 92,
+    "family": 12,
+    "variant": 4,
+    "question": "A club has 1008 members. Half pay a $10 fee and the other half pay a $20 fee. What is the total collected in dollars?",
+    "solution": "Each half has 504 members. Revenue is 504*(10+20)=15120.\n#### 15120",
+    "answer": "15120",
+    "checked_answer": 15120,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 93,
+    "family": 13,
+    "variant": 4,
+    "question": "A warehouse has 36 crates holding 28 bottles each. It receives 10 more identical crates and ships 28 individual bottles. How many bottles remain?",
+    "solution": "There are 46 crates before shipping, holding 1288 bottles. Subtract 28: 1260.\n#### 1260",
+    "answer": "1260",
+    "checked_answer": 1260,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 94,
+    "family": 14,
+    "variant": 4,
+    "question": "A worker earns $36 per hour for 28 hours each day. Over 3 days, she spends $10 per day on transport. How much money does she keep in dollars?",
+    "solution": "Daily net earnings: 36*28-10=998. Three days: 3*998=2994.\n#### 2994",
+    "answer": "2994",
+    "checked_answer": 2994,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 95,
+    "family": 15,
+    "variant": 4,
+    "question": "Two teams collect cans. Team A collects 1008 cans. Team B collects 10 fewer than twice as many as A. How many cans do they collect together?",
+    "solution": "Team B has 2*1008-10=2006. Together: 1008+2006=3014.\n#### 3014",
+    "answer": "3014",
+    "checked_answer": 3014,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 96,
+    "family": 16,
+    "variant": 4,
+    "question": "A shop marks a $144 item down by 25 percent. A customer buys 28 of these discounted items and pays $10 for delivery. What is the total bill in dollars?",
+    "solution": "Each discounted item costs 144*3/4=108. Items cost 3024. With delivery: 3034.\n#### 3034",
+    "answer": "3034",
+    "checked_answer": 3034,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 97,
+    "family": 17,
+    "variant": 4,
+    "question": "A class reads 36 pages per day for 28 days. They then reread 10 of those pages. How many page readings did they do in total, counting rereads?",
+    "solution": "First readings: 36*28=1008. Add 10 rereads: 1018.\n#### 1018",
+    "answer": "1018",
+    "checked_answer": 1018,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 98,
+    "family": 18,
+    "variant": 4,
+    "question": "A truck can carry 36 kilograms. It carries 28 packages weighing 10 kilograms each. How many more kilograms can it carry if its capacity is actually increased to 1008 kilograms?",
+    "solution": "The updated capacity is 1008. Current load is 28*10=280. Remaining capacity: 1008-280=728.\n#### 728",
+    "answer": "728",
+    "checked_answer": 728,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  },
+  {
+    "id": 99,
+    "family": 19,
+    "variant": 4,
+    "question": "A school has 36 classrooms with 28 chairs each. It moves 10 chairs from each classroom into the hall. How many chairs remain in the classrooms in total?",
+    "solution": "Each room retains 28-10=18. Total remaining: 36*18=648.\n#### 648",
+    "answer": "648",
+    "checked_answer": 648,
+    "generator": "Problem families with deterministic arithmetic instantiation"
+  }
+]

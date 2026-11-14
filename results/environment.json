@@ -1,0 +1,40 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "gpu": "Intel(R) Arc(TM) 140T GPU (23GB)",
+  "xpu_available": true,
+  "versions": {
+    "torch": "2.14.1+xpu",
+    "torchvision": "0.29.1+xpu",
+    "transformers": "4.57.6",
+    "datasets": "4.8.5",
+    "peft": "0.21.2",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nats-bench": "1.8",
+    "reportlab": "5.1.0",
+    "pymupdf": "2.0",
+    "requests": "2.34.2",
+    "ipython": "9.17.1",
+    "ipykernel": "7.4.0",
+    "black": "26.10.1"
+  },
+  "cpu_threads": 8,
+  "precision": {
+    "T1": "FP32; cached hint tensors stored FP16",
+    "T2": "BF16 backbone; PEFT adapter parameters FP32",
+    "T3": "FP32",
+    "T4": "FP32"
+  },
+  "latency_protocol": "Batch 1, 10 warmups, 20 timed forwards, XPU synchronized, median, excludes loading",
+  "timing_note": "Training-loop wall times include epoch validation; downloads and data preparation excluded.",
+  "gpu_driver": "32.0.101.8991",
+  "T2_attention": {
+    "teacher": "sdpa",
+    "student": "eager",
+    "student_evaluation_batch": 8,
+    "reason": "SDPA batch-32 student prefill hit Intel GPU out-of-resources/device-lost; no predictions were saved from that failed attempt."
+  }
+}
